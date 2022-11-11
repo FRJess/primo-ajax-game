@@ -17,6 +17,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 
+  LUXON
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/3.1.0/luxon.min.js" integrity="sha512-79nhbkASdW5wurW8DtF9Vd7BEDKdTbCKkh87lW6W3tk9T4L9Bc58MzmvRzjMcFCSKpjkoRjwzrTdfOa5lkfJ5Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
   <!-- AXIOS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js" integrity="sha512-0qU9M9jfqPw6FKkPafM3gy2CBAvUWnYVOfNPDYKVuRTel1PrciTj+a9P3loJB+j0QmN2Y0JYQmkBBS8W+mbezg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -26,11 +29,19 @@
   <!-- VUE -->
   <script src="https://unpkg.com/vue@3"></script>
 
-  <title>Modello</title>
+  <title>Ajax Game</title>
 </head>
 
 <!-- Inizio Body -->
 <body>
+
+  <div id="app" class="container p-5">
+    <h1>{{title}}</h1>
+    <h3>Giocatore A: {{giocatoreA}}</h3>
+    <h3>Giocatore B: {{giocatoreB}}</h3>
+    <h4>{{getResult}}</h4>
+
+  </div>
 
   <!-- JS -->
   <script src="js/script.js"></script>

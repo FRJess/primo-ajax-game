@@ -1,3 +1,16 @@
-// VARIABLES DECLARATION AND INIZIALIZATION
+const {createApp} = Vue; 
 
-// FUNCTIONS
+createApp({
+
+  data(){
+
+  },
+
+  methods:{
+
+  },
+
+  mounted(){
+
+  }
+}).mount('#app')
